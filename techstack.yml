@@ -1,0 +1,273 @@
+repo_name: ctavolazzi/amethyst
+report_id: f267617a61a7a931ec2477bd84041bd3
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T02:01:57+00:00'
+requested_by: AlveLarsson
+provider: github
+branch: main
+detected_tools_count: 22
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst
+  detection_source: Repo Metadata
+- name: GLSL
+  description: A high-level C-style language
+  website_url: https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6548/default_a66025fbe8f221c489bdaac3a99d84e5f138cbbd.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ctavolazzi/amethyst
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_ui/Cargo.toml
+  detection_source: amethyst_ui/Cargo.toml
+  last_updated_by: Jacob Kiesel
+  last_updated_on: 2017-10-21 01:50:17.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_locale/Cargo.toml
+  detection_source: amethyst_locale/Cargo.toml
+  last_updated_by: jojo
+  last_updated_on: 2018-04-23 19:08:22.000000000 Z
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_gltf/Cargo.toml
+  detection_source: amethyst_gltf/Cargo.toml
+  last_updated_by: Simon Rönnberg
+  last_updated_on: 2017-10-21 20:00:31.000000000 Z
+- name: Serde
+  description: Serialization framework for Rust
+  website_url: https://serde.rs
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/11028/no-img-open-source.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Rémi Lauzier
+  last_updated_on: 2021-06-29 22:25:17.000000000 Z
+- name: Tokio
+  description: Runtime for writing reliable asynchronous applications with Rust
+  website_url: https://tokio.rs/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/12187/bC40df3r_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_assets/Cargo.toml
+  detection_source: amethyst_assets/Cargo.toml
+  last_updated_by: Rémi Lauzier
+  last_updated_on: 2021-06-29 22:25:17.000000000 Z
+- name: Backtrace
+  description: Real-time automated error detection, response and analysis for enterprise-grade
+    software
+  website_url: http://backtrace.io
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/4920/QOo-sB4D_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_error/Cargo.toml
+  detection_source: amethyst_error/Cargo.toml
+  last_updated_by: Rémi Lauzier
+  last_updated_on: 2021-06-29 22:25:17.000000000 Z
+- name: Ctop
+  description: Commandline monitoring for containers
+  website_url: http://ctop.sh/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/6731/favicon.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_assets/Cargo.toml
+  detection_source: amethyst_assets/Cargo.toml
+  last_updated_by: Jacob Kiesel
+  last_updated_on: 2017-07-19 14:38:11.000000000 Z
+- name: Distill
+  description: Tracking website updates, automated and simplified
+  website_url: https://distill.io
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Website Monitoring
+  image_url: https://img.stackshare.io/service/11457/g3QrZgYl_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_assets/Cargo.toml
+  detection_source: amethyst_assets/Cargo.toml
+  last_updated_by: James Lowry
+  last_updated_on: 2021-05-19 19:55:16.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Emory Petermann
+  last_updated_on: 2021-01-19 20:10:51.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_ui/Cargo.toml
+  detection_source: amethyst_ui/Cargo.toml
+  last_updated_by: Jacob Kiesel
+  last_updated_on: 2017-10-21 01:50:17.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_locale/Cargo.toml
+  detection_source: amethyst_locale/Cargo.toml
+  last_updated_by: jojo
+  last_updated_on: 2018-04-23 19:08:22.000000000 Z
+- name: Sentry
+  description: See performance issues, fix errors faster, and optimize code health.
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  version: 0.22.0
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/Cargo.toml
+  detection_source: Cargo.toml
+  last_updated_by: Emory Petermann
+  last_updated_on: 2021-01-16 19:00:56.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_network/Cargo.toml
+  detection_source: amethyst_network/Cargo.toml
+  last_updated_by: jojo
+  last_updated_on: 2018-02-01 15:14:41.000000000 Z
+- name: Amethyst
+  description: Data-oriented and data-driven game engine written in Rust
+  website_url: https://www.amethyst.rs/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Game Development
+  image_url: https://img.stackshare.io/service/10464/amethyst_emblem.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_animation/Cargo.toml
+  detection_source: amethyst_animation/Cargo.toml
+  last_updated_by: Yanik Lyth
+  last_updated_on: 2021-09-18 17:29:46.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_gltf/Cargo.toml
+  detection_source: amethyst_gltf/Cargo.toml
+  last_updated_by: Simon Rönnberg
+  last_updated_on: 2017-10-21 20:00:31.000000000 Z
+- name: Fern
+  description: SDKs and documentation for your API
+  website_url: https://www.buildwithfern.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/48768/default_af09d1d21883ef6c715dfe6b82c10bbea88a2bf6.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst/blob/main/amethyst_assets/Cargo.toml
+  detection_source: amethyst_assets/Cargo.toml
+  last_updated_by: Jacob Kiesel
+  last_updated_on: 2017-07-19 14:38:11.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ctavolazzi/amethyst
+  detection_source: Repo Metadata
